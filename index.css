@@ -1,0 +1,126 @@
+.header.logo{
+  height: 50px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.header.navbar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-list{
+  list-style-type: none;
+}
+
+.navbar-list-item{
+  display:inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.icon{
+  color: #cc0000;
+}
+
+.navbar-list-item.center{
+  border-left: solid;
+  border-right: solid;
+  border-color: #cc0000;
+}
+
+body{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+  width:100%; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.delivery-status, .review-text, .parcel-error{
+  color: #cc0000;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tracking-id{
+  font-weight: bold;
+}
+
+.receipt.header{
+  background-color: #cc0000;
+  color: white;
+  padding: 20px;
+  margin:0px;
+  border-style: solid;
+  border-color:#cc0000;
+  ;
+}
+
+.receipt.info{
+  background-color: #e6e6e6;
+  height:200px;
+  margin:0;
+  padding: 0;
+  border-style: solid;
+  border-color: #e6e6e6;
+}
+
+.receipt-list{
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+
+.receipt-list-item{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info-title{
+  font-weight: bold;
+}
+
+.footer{
+  text-align: center;
+}
+
+.review-rating{
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.parcel-error{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.report-btn{
+  background-color: #cc0000;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+}
